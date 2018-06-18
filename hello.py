@@ -7,5 +7,5 @@ app = Flask(__name__)
 def index():
     return "Hello World"
 
-if__name__=="__main__":
-    app.rain(debug=True)
+if __name__=="__main__":
+    app.run(debug=True)
